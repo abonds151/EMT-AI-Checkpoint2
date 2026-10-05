@@ -1,0 +1,61 @@
+===========================================================================
+EMT-AI CHECKPOINT 2 - COMPARISON TEST
+===========================================================================
+
+Scenario 1: Unconscious Patient
+Expected: HIGH
+EMT-AI:   HIGH (CORRECT)
+Baseline: HIGH (CORRECT)
+
+Scenario 2: Chest Pain
+Expected: HIGH
+EMT-AI:   HIGH (CORRECT)
+Baseline: HIGH (CORRECT)
+
+Scenario 3: Minor Cut
+Expected: LOW
+EMT-AI:   LOW (CORRECT)
+Baseline: LOW (CORRECT)
+
+Scenario 4: Severe Bleeding
+Expected: HIGH
+EMT-AI:   HIGH (CORRECT)
+Baseline: HIGH (CORRECT)
+
+Scenario 5: Possible Broken Arm
+Expected: MEDIUM
+EMT-AI:   MEDIUM (CORRECT)
+Baseline: LOW (INCORRECT)
+
+Scenario 6: Difficulty Breathing
+Expected: HIGH
+EMT-AI:   HIGH (CORRECT)
+Baseline: LOW (INCORRECT)
+
+Scenario 7: Ankle Injury
+Expected: MEDIUM
+EMT-AI:   MEDIUM (CORRECT)
+Baseline: LOW (INCORRECT)
+
+Scenario 8: Headache
+Expected: LOW
+EMT-AI:   LOW (CORRECT)
+Baseline: LOW (CORRECT)
+
+Scenario 9: Possible Fracture
+Expected: MEDIUM
+EMT-AI:   MEDIUM (CORRECT)
+Baseline: LOW (INCORRECT)
+
+Scenario 10: Weak Case - Breathing Emergency
+Expected: HIGH
+EMT-AI:   LOW (INCORRECT)
+Baseline: LOW (INCORRECT)
+
+===========================================================================
+FINAL COMPARISON
+===========================================================================
+Total Test Cases: 10
+
+EMT-AI:   9/10 correct (90.0%)
+Baseline: 5/10 correct (50.0%)
