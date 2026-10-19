@@ -59,3 +59,56 @@ Total Test Cases: 10
 
 EMT-AI:   9/10 correct (90.0%)
 Baseline: 5/10 correct (50.0%)
+
+
+
+
+
+New Test:
+
+EMT-AI CHECKPOINT 2
+EXPERIMENTAL RESULTS
+
+DEVELOPMENT TEST (10 SCENARIOS)
+
+Original Baseline: 5/10 (50%)
+Three-Level Baseline: 8/10 (80%)
+EMT-AI: 10/10 (100%)
+
+ADDITIONAL SCENARIO TEST (10 SCENARIOS)
+
+Original Baseline: 5/10 (50%)
+Three-Level Baseline: 7/10 (70%)
+EMT-AI: 10/10 (100%)
+
+RESULTS SUMMARY
+
+EMT-AI correctly classified all 10 scenarios
+in each test.
+
+The original baseline achieved 50% accuracy
+in both tests.
+
+The three-level baseline achieved 80% on
+the development test and 70% on the
+additional test.
+
+EMT-AI performed better than both baselines
+on these selected fictional scenarios.
+
+LIMITATIONS
+
+The tests used small datasets with only
+10 scenarios each.
+
+The additional scenarios included wording
+similar to the development scenarios.
+
+The expected priority labels have not been
+independently validated by EMT instructors.
+
+EMT-AI is a rule-based training prototype,
+not a trained machine-learning model.
+
+The results do not demonstrate that the
+system is safe or accurate for real patients.

@@ -1,0 +1,11 @@
+Scenario,Expected,Original Baseline,Three-Level Baseline,EMT-AI
+Unconscious Patient,HIGH,HIGH,HIGH,HIGH
+Chest Pain,HIGH,HIGH,HIGH,HIGH
+Minor Cut,LOW,LOW,LOW,LOW
+Severe Bleeding,HIGH,HIGH,HIGH,HIGH
+Possible Broken Arm,MEDIUM,LOW,MEDIUM,MEDIUM
+Difficulty Breathing,HIGH,LOW,LOW,HIGH
+Ankle Injury,MEDIUM,LOW,MEDIUM,MEDIUM
+Headache,LOW,LOW,LOW,LOW
+Possible Fracture,MEDIUM,LOW,MEDIUM,MEDIUM
+Weak Case - Breathing Emergency,HIGH,LOW,LOW,HIGH
