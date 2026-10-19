@@ -20,7 +20,11 @@ def analyze_scenario(description):
         "severe bleeding",
         "chest pain",
         "shortness of breath",
-        "not breathing"
+        "not breathing",
+        "cannot catch their breath",
+        "can't catch my breath",
+        "trouble breathing",
+        "difficulty breathing"
     ]
 
     medium_priority_terms = [
